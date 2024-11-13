@@ -1,0 +1,71 @@
+body {
+    background-image: linear-gradient(to right, rgb(0, 0, 0) , rgb(190, 190, 190));
+}
+
+.box-input{
+    background-color: rgb(226, 85, 85);
+    width: 370px;
+    height: 240px;
+    border-radius: 20px;
+
+    position: relative;
+    top: 200px;
+    left: 36%;
+    box-shadow: inset 5px 10px 100px red;
+}
+.log{
+  font-size: 45px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: aliceblue;
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  
+}
+
+
+
+
+#email{
+  position: absolute;
+  top: 110px;
+  left: 40px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: aliceblue;
+
+}
+#email-client{
+  position: absolute;
+  top: 110px;
+  left: 93px;
+
+  width: 170px;
+  height: 17px;
+  border-radius: 8px;
+}
+
+#password{
+  position: absolute;
+  top: 140px;
+  left: 40px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: aliceblue;
+
+}
+#password-client{
+  position: absolute;
+  top: 140px;
+  left: 93px;
+
+  width: 170px;
+  height: 17px;
+  border-radius: 8px;
+}
+
+#enter{
+  position: absolute;
+  top: 390px;
+  left: 43%;
+  width: 200px;
+  height: 25px;
+}
