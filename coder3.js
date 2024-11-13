@@ -1,14 +1,13 @@
 //funcionamento de loguin
 function verificar(){
-    const email = document.getElementById('email-nick');
-    const pass = document.getElementById('password')
-    if(email.value == 'cristina@gmail.com' && pass.value == 'cR1ss'){
-        alert("ok")
+    var email = document.getElementById("email-client");
+    var pass = document.getElementById("password-client");
+    if(email.value == 'root' && pass.value == "123456"){
+        window.location.replace("R3.html")
     }
     else{
-        alert("LOGIN OU SENHA INCORRETA\nTENTE NOVAMENTE")
+        alert("email ou senha incorreto!")
     }
-
 }
 
 //Funcionamento da regra de 3
